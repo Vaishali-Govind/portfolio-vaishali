@@ -23,15 +23,40 @@ $(document).ready(function(){
         loop:true,
         autoplay:true,
         dots:true,
+        responsiveClass:true,
         responsive:{
             0:{
-                items:1
-            }, 
+                            items:1,
+                            // nav:true
+                        },
+                        600:{
+                            items:1,
+                            // nav:false
+                        },
             544:{
                 items:2
             }
         }
     })
+//     loop:true,
+//      margin:10,
+//     responsiveClass:true,
+//     responsive:{
+//         0:{
+//             items:1,
+//             nav:true
+//         },
+//         600:{
+//             items:1,
+//             nav:false
+//         },
+//         1000:{
+//             items:5,
+//             nav:true,
+//             loop:false
+//         }
+//     }
+// })
 
     let nav_offset_top = $(".header_area").height() + 50;
     function navbarFixed(){
