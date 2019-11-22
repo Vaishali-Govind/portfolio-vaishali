@@ -1,12 +1,12 @@
 @media only screen and (max-width: 768px){
-     html,body
+/*      html,body
     {
         width: 100%;
         height: 200%;
         margin: 0px;
         padding: 0px;
         overflow-x: hidden; 
-    } 
+    }  */
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
