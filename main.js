@@ -34,7 +34,7 @@ $(document).ready(function(){
                             // nav:false
                         },
             544:{
-                items:2
+                items:1
             }
         }
     })
